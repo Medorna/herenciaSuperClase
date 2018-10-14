@@ -5,7 +5,4 @@ public class Mago extends Humano{
     public void usarmagia(){
     
     }
-    
-
-    
 }

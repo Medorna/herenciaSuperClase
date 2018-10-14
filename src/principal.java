@@ -19,7 +19,17 @@ public class principal {
     player1.caminar();
     player1.atacar();
     
-        System.out.println(player1.nombre + " " + player1.edad + " años");
+    System.out.println(player1.nombre + " " + player1.edad + " años");
+        
+    MagoLvUno player3 = new MagoLvUno();
+    //super clase Humano
+    player3.nombre = "Maguito";
+    player3.edad = 100;
+    //clase padre Mago
+    player3.cantidadMP = 50;
+    player3.usarmagia();
+    
+     System.out.println(player3.nombre + " " + player3.edad + " años");
     
     }
     
